@@ -1,0 +1,11 @@
+.Navbar {
+  background-color: turquoise;
+  height: 10vh;
+  text-align: left;
+}
+
+.LinkStyle {
+  text-align: center;
+  background-color: red;
+  height: 10vh;
+}
