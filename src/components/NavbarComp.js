@@ -3,6 +3,7 @@ import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 //import Interests from "../pages/Interests";
+import Projects from "../pages/Projects";
 import Home from "../pages/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -34,7 +35,7 @@ export default class NavbarComp extends Component {
         <div>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            {/* <Route exact path="/interests" element={<Interests />} /> */}
+            <Route exact path="/projects" element={<Projects />} />
           </Routes>
         </div>
       </Router>

@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-// import Todos from "../component/todos";
-// import AddTodo from "../component/AddTodo";
+
 import "../pages/Home.css";
-import { ListSubheader } from "@mui/material";
+import home_pic from "../assets/images/home_pic.jpg";
 
 class Home extends Component {
   // Create a default state of this component with an empty list of todos.
@@ -13,11 +12,11 @@ class Home extends Component {
         {/* <p>Design your About me page </p> */}
         <div class="split left">
           <div className="centered">
-            {/* <img
+            <img
               className="profile_image"
-              src={profile_pic}
+              src={home_pic}
               alt="Profile Pic"
-            ></img> */}
+            ></img>
             <div>
               <b>Quick Facts</b>
               <div text-align="left">
@@ -29,10 +28,7 @@ class Home extends Component {
                     Currently a junior at MIT studying Electrical Engineering
                     and Computer Science
                   </li>
-                  <li>
-                    Love for running, working out, cooking, poetry, and friend
-                    and family
-                  </li>
+                  <li>Enjoys running, working out, cooking, and poetry</li>
                 </ul>
               </div>
             </div>
