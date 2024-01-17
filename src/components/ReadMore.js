@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "../components/ReadMore.css";
 function ReadMore({ title, description, link }) {
   const [expanded, setExpanded] = useState(false);
 
@@ -11,7 +11,7 @@ function ReadMore({ title, description, link }) {
         </a>
       </p>
       <span onClick={() => setExpanded(!expanded)}>
-        <div>Read More...</div>
+        <div id="change">Read More...</div>
       </span>
       {expanded ? (
         <div>
