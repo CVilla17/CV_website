@@ -11,7 +11,11 @@ function ReadMore({ title, description, link }) {
         </a>
       </p>
       <span onClick={() => setExpanded(!expanded)}>
-        <div id="change">Read More...</div>
+        {expanded ? (
+          <div id="change"> Read Less </div>
+        ) : (
+          <div id="change">Read More...</div>
+        )}
       </span>
       {expanded ? (
         <div>
