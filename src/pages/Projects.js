@@ -17,8 +17,13 @@ class Projects extends Component {
               title={"Battle Royale Simulation"}
               link={"https://github.com/CVilla17/Battle_Royale_Sim"}
               description={
-                "Following my first semester of college/introduction to computer science I really wanted to make something using what I had learned in class. I asked my professor if I could use some of the starter code from a monte carlo simulation lab we had done earlier in the semester, and once I had the go ahead I began formulating a plan to make this game with my friend. I ended up making the game to be customizable and playable for many players. The interface is pretty rough but it reflects my experience at the time. I really enjoyed making it and playing with friends. Game play centers around and is changed by user inputted stats. Players roam a user designed arena and a story is generated describing their interactions until only one player remains."
+                "Following my first semester of college/introduction to computer science I really wanted to make something using what I had learned in class. I asked my professor if I could use some of the starter code from a monte carlo simulation lab we had done earlier in the semester, and once I had the go ahead I began formulating a plan to make this game with my friend. I ended up making the game to be customizable and playable for many players. The interface is pretty rough but it reflects my experience at the time. I really enjoyed making it and playing with friends. Game play is as follows: "
               }
+              bullets={[
+                "Centers around and is changed by user inputted stats",
+                "Players roam a user designed arena ",
+                "A story is generated describing their interactions until only one player remains",
+              ]}
             />
           </Item>
         </Grid>
@@ -41,8 +46,14 @@ class Projects extends Component {
                 "https://github.com/C-Accel-CRIPT/criptscripts?tab=readme-ov-file"
               }
               description={
-                "While working at CRIPT I contributed to several other projects that can be found on the CRIPT github or via this criptscripts website that is linked(although it should be moved to the main site soon apparently). Notable highlights from the criptscripts website that I worked on are: multiple graph representations of experiments translated from research papers(CRIPT graphs), JSON representations of those same experiments(CRIPT JSON),example scripts for SDK usage as well as bibliography transformers(CRIPT scripts), example excel files for users (Excel files). Aside from the programs and other work mentioned I worked on development and maintenance of the CRIPT SDK, the core of the CRIPT service."
+                "One of my other main responsibilities was to work on the maintenance and development of the CRIPT SDK, the core of the CRIPT service. While working at CRIPT I also contributed to several other projects that can be found on the CRIPT github or via this criptscripts website that is linked(although it should be moved to the main site soon apparently). Notable highlights from the criptscripts website that I worked on are:  "
               }
+              bullets={[
+                "multiple graph representations of experiments translated from research papers (CRIPT graphs)",
+                "JSON representations of those same experiments (CRIPT JSON)",
+                "example scripts for SDK usage as well as bibliography transformers (CRIPT scripts)",
+                "example excel files for users (Excel files)",
+              ]}
             />
           </Item>
         </Grid>
