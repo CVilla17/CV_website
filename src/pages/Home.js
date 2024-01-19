@@ -39,7 +39,11 @@ class Home extends Component {
               <div className="brief_description">
                 Hi! Welcome to my website, I made this to show off things I've
                 worked on and I'm passionate about. Feel free to take a look
-                around!
+                around! Oh, you can also contact me at:{" "}
+                <a href="mailto:villac@mit.edu">villac@mit.edu</a> or{" "}
+                <a href="mailto:carlos.x.5991@gmail.com">
+                  carlos.x.5991@gmail.com
+                </a>
               </div>
               <br></br>
             </div>
