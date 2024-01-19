@@ -2,15 +2,17 @@ import React, { useState } from "react";
 import "../components/ReadMore.css";
 function ReadMore({ title, description, link, bullets = [] }) {
   const [expanded, setExpanded] = useState(false);
-  console.log("length greater than 0", bullets.length > 0);
+
   let hasBullets = bullets.lenght > 0;
-  console.log("Has bullets:", hasBullets);
+
   return (
     <div>
       <p>
-        <a href={link}>
-          <b>{title}</b>
-        </a>
+        <div>
+          <a href={link}>
+            <b>{title}</b>
+          </a>
+        </div>
       </p>
       <span onClick={() => setExpanded(!expanded)}>
         {expanded ? (

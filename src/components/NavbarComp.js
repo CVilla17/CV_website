@@ -24,8 +24,8 @@ export default class NavbarComp extends Component {
                   <Nav.Link as={Link} to={"/projects"}>
                     Projects
                   </Nav.Link>
-                  <Nav.Link as={Link} to={"/interests"}>
-                    Interests
+                  <Nav.Link as={Link} to={"/poetry"}>
+                    Poetry
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
