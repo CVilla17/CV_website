@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-//import Interests from "../pages/Interests";
+import Poetry from "../pages/Poetry";
 import Projects from "../pages/Projects";
 import Home from "../pages/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,7 +14,7 @@ export default class NavbarComp extends Component {
         <div>
           <Navbar bg="primary" variant={"dark"} expand="lg">
             <Container>
-              <Navbar.Brand href="#home">Explore</Navbar.Brand>
+              <Navbar.Brand href="/">Explore</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
@@ -36,6 +36,7 @@ export default class NavbarComp extends Component {
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/projects" element={<Projects />} />
+            <Route exact path="/poetry" element={<Poetry />} />
           </Routes>
         </div>
       </Router>
