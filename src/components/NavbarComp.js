@@ -14,11 +14,11 @@ export default class NavbarComp extends Component {
         <div>
           <Navbar style={{ backgroundColor: "#00ABE4" }}>
             <Container>
-              <Navbar.Brand href="/">Explore</Navbar.Brand>
+              <Navbar.Brand href="/CV_website">Explore</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                  <Nav.Link as={Link} to={"/"}>
+                  <Nav.Link as={Link} to={"/CV_website"}>
                     Home
                   </Nav.Link>
                   <Nav.Link as={Link} to={"/projects"}>
@@ -34,7 +34,7 @@ export default class NavbarComp extends Component {
         </div>
         <div>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/CV_website" element={<Home />} />
             <Route exact path="/projects" element={<Projects />} />
             <Route exact path="/poetry" element={<Poetry />} />
           </Routes>
