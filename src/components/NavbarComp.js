@@ -12,7 +12,7 @@ export default class NavbarComp extends Component {
     return (
       <Router>
         <div>
-          <Navbar bg="primary" variant={"dark"} expand="lg">
+          <Navbar style={{ backgroundColor: "#00ABE4" }}>
             <Container>
               <Navbar.Brand href="/">Explore</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />

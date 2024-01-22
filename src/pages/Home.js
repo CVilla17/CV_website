@@ -10,7 +10,7 @@ class Home extends Component {
     return (
       <div>
         {/* <p>Design your About me page </p> */}
-        <div class="split left">
+        <div className="split left">
           <div className="centered">
             <img
               className="profile_image"
