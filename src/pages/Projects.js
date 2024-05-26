@@ -10,6 +10,7 @@ import excel_uploader from "../assets/images/excel_uploader_pic_new.png";
 import insole from "../assets/images/insole_pic.png";
 import battle_royale from "../assets/images/BATTLE_ROYALE.png";
 import reactPic from "../assets/images/logo512.png";
+import ASL_demo_pic from "../assets/images/ASL_demo_pic.png";
 
 class Projects extends Component {
   // Create a default state of this component with an empty list of todos.
@@ -147,6 +148,22 @@ class Projects extends Component {
                 link={"/"}
                 description={
                   "I wanted a space to display my work as well as my interests, so I decided to use some of my programing background to whip up a website. Although this isn't my strongest area of expertise it's enjoyable to make something of my own and is a nice exercise of my skills."
+                }
+              />
+            </Item>
+          </Grid>
+          <Grid item xs={6}>
+            <Item>
+              <img
+                className="image_styling"
+                src={ASL_demo_pic}
+                alt="ASL app demo"
+              ></img>
+              <ReadMore
+                title={"ASL alpahabet predictor"}
+                link={"https://github.com/CVilla17/ASL_app"}
+                description={
+                  "A work in progress web app that allows users to sign a letter of the ASL alphabet and get prediction of what letter it is. Meant to be developed such that the app prompts a user to sign letters and the model confirms accuracy, as a sort of tutor. The github describes the project a bit more, but I expanded on a model to perform multi-class image classification and built the front-end using react. Just a fun side project to work with ML a bit and web apps."
                 }
               />
             </Item>
