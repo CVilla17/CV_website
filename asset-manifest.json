@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CV_website/static/css/main.a3faa58c.css",
-    "main.js": "/CV_website/static/js/main.a763f419.js",
+    "main.js": "/CV_website/static/js/main.d0396350.js",
     "static/js/787.7887cb61.chunk.js": "/CV_website/static/js/787.7887cb61.chunk.js",
     "static/media/insole_pic.png": "/CV_website/static/media/insole_pic.a6c13c64a21aae9ca2f9.png",
     "static/media/ASL_demo_pic.png": "/CV_website/static/media/ASL_demo_pic.513903ddb9d84bbaa4f1.png",
@@ -9,15 +9,15 @@
     "static/media/home_pic.jpg": "/CV_website/static/media/home_pic.5b4d754aa87be4bfc083.jpg",
     "static/media/excel_uploader_pic_new.png": "/CV_website/static/media/excel_uploader_pic_new.9ac67dc930ef4067cc2f.png",
     "static/media/criptScripts.png": "/CV_website/static/media/criptScripts.c9146e6ad86becac8033.png",
+    "static/media/lab6_thumbnail.png": "/CV_website/static/media/lab6_thumbnail.f70c8aa99111dbd3d5a4.png",
     "static/media/BATTLE_ROYALE.png": "/CV_website/static/media/BATTLE_ROYALE.3cf16076788e4b274ac7.png",
-    "static/media/logo.svg": "/CV_website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/CV_website/index.html",
     "main.a3faa58c.css.map": "/CV_website/static/css/main.a3faa58c.css.map",
-    "main.a763f419.js.map": "/CV_website/static/js/main.a763f419.js.map",
+    "main.d0396350.js.map": "/CV_website/static/js/main.d0396350.js.map",
     "787.7887cb61.chunk.js.map": "/CV_website/static/js/787.7887cb61.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3faa58c.css",
-    "static/js/main.a763f419.js"
+    "static/js/main.d0396350.js"
   ]
 }
