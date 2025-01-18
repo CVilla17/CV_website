@@ -3,8 +3,6 @@ import "../components/ReadMore.css";
 function ReadMore({ title, description, link, bullets = [] }) {
   const [expanded, setExpanded] = useState(false);
 
-  let hasBullets = bullets.lenght > 0;
-
   return (
     <div>
       <p>

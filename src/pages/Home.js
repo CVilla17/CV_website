@@ -25,8 +25,9 @@ class Home extends Component {
                     Grew up in Illinois and went to Warren Township High School
                   </li>
                   <li>
-                    Currently a junior at MIT studying Electrical Engineering
-                    and Computer Science
+                    Currently a Senior at MIT studying Electrical Engineering
+                    and Computer Science. Pursuing a Master's of Engineering in
+                    Fall 2025.
                   </li>
                   <li>Enjoys running, working out, cooking, and poetry</li>
                 </ul>

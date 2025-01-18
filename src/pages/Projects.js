@@ -11,6 +11,7 @@ import insole from "../assets/images/insole_pic.png";
 import battle_royale from "../assets/images/BATTLE_ROYALE.png";
 import reactPic from "../assets/images/logo512.png";
 import ASL_demo_pic from "../assets/images/ASL_demo_pic.png";
+import lab6_thumbnail from "../assets/images/lab6_thumbnail.png";
 
 class Projects extends Component {
   // Create a default state of this component with an empty list of todos.
@@ -90,7 +91,7 @@ class Projects extends Component {
               <img
                 className="image_styling"
                 src={insole}
-                alt="Picture of prototype insole"
+                alt="Prototype insole"
               ></img>
               <ReadMore
                 title={
@@ -115,7 +116,7 @@ class Projects extends Component {
               <img
                 className="image_styling"
                 src={data_analysis}
-                alt="Picture of one data point in the data analysis"
+                alt="One data point in the data analysis, includes numerical and graphical data"
               ></img>
               <ReadMore
                 title={
@@ -165,6 +166,20 @@ class Projects extends Component {
                 description={
                   "A work in progress web app that allows users to sign a letter of the ASL alphabet and get prediction of what letter it is. Meant to be developed such that the app prompts a user to sign letters and the model confirms accuracy, as a sort of tutor. The github describes the project a bit more, but I expanded on a model to perform multi-class image classification and built the front-end using react. Just a fun side project to work with ML a bit and web apps."
                 }
+              />
+            </Item>
+          </Grid>
+          <Grid item xs={6}>
+            <Item>
+              <img
+                className="image_styling"
+                src={lab6_thumbnail}
+                alt="Robotics"
+              ></img>
+              <ReadMore
+                title={"Robotics: Science and Systems"}
+                link={"https://rss2024-9.github.io/website/"}
+                description={"Collaborative work on a semi-autonomous toy car."}
               />
             </Item>
           </Grid>
